@@ -34,8 +34,8 @@ def find_valid_calls(planeteer_calls)
   planeteer_calls.include?(valid_calls) do |word|
     if true
       return word
-    else
-      nil
+    elsif false 
+      return nil
     end
   end
 end
